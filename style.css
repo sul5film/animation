@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+ul{list-style: none;}
+
+a:visited, a:link{text-decoration: none;}
+
+.kr{
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.wrap{
+    width:100%;
+    height:1080px;
+    padding-left: 20px;
+    line-height: 30px;
+    background-color: whitesmoke;
+    font-family: "Source Code Pro", monospace;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px rgba(0,0,0,0.3) solid;
+    border-top: 1px rgba(0,0,0,0.5) dashed;
+    font-size: 0.8rem;
+    letter-spacing: 4px;
+}
+
+th, td{
+    border-bottom:1px dashed gray;
+    padding:8px 15px;
+}
+
+.name{cursor: pointer;}
+
+.name:hover{text-decoration: line-through;}
+
+.about{display:none;}
+
+.sns a{color:blue}
+
+.edu_txt{position:relative; left: 200px;}
+
+.edu{position:relative; left: 200px;}
+
+.edu_txt:hover{text-decoration: line-through; cursor: pointer;}
+
+.about_txt:hover{text-decoration:line-through;cursor: pointer;}
+
+.career_txt{position:relative; left: 200px;}
+.career{position:relative; left: 200px;}
+
+.career_txt:hover{text-decoration: line-through;cursor: pointer;}
+
+.active_txt{position:relative; left: 200px;}
+.active{position:relative; left: 200px;}
+
+.active_txt:hover{cursor: pointer; text-decoration:line-through;}
+
+.skills_txt{position:relative; left: 200px;}
+.skills{position:relative; left: 200px;}
+
+.skills_txt:hover{cursor: pointer; text-decoration:line-through;}
+
+.works{
+    display: none;
+    background: whitesmoke;}
+
+.works_txt:hover{text-decoration:line-through;cursor: pointer;}
+
+.year{text-align: right;}
+
+.pic{background-color: white;text-align: center; margin:0; padding: 0;}
+
+.film_txt{position: relative; left:50px;}
+
+.film_txt:hover{text-decoration:line-through;cursor: pointer;}
+
+.title{color:transparent; -webkit-text-stroke: 1px rgba(0, 0, 0, 0.4); font-size: 14px;}
+
+.title:hover{text-shadow: 1px 1px 2px blue; -webkit-text-stroke: 0px; cursor: pointer; font-weight: bold;}
+
+.web_txt{position: relative; left:50px;}
+
+.web_txt:hover{text-decoration:line-through;cursor: pointer;}
+
+.web_works{position:relative; left:50px;}
+
+.web1{width:95px; height:95px; position:relative; margin-top:5px; background: url(./images/freitag.PNG) -5px 0px/600%;}
+.web2{width:95px; height:95px; position:absolute; background: url(./images/sema.PNG) 0px -15px/600%; top:0; left:95px;}
+.web3{width:95px; height:95px; position:absolute; background: url(./images/ader.PNG) -20px -35px; top:0; left:190px;}
+.web4{width:95px; height:95px; position:relative; background: url(./images/ppg.PNG) -30px -10px/700%;}
+.web5{width:95px; height:95px; position:absolute; background: url(./images/movement.PNG) 130px 100px/400%; top:95px; left:95px;}
+.web6{width:95px; height:95px; position:absolute; background: url(./images/hydro.PNG) -20px 0px /800%; top:95px; left:190px;}
+
+
+.cv{background: whitesmoke;}
+
+.cv a{color:blue;}
+
+.cv a:hover{text-decoration: underline wavy;}
+
+.mail{background: whitesmoke;}
+
+.mail a:hover{text-decoration: underline wavy;}
